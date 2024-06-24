@@ -18,19 +18,27 @@ html, body {
     padding: 10px;
 }
 
-.container {
-    margin-top: 25px;
-}
-
 .bootstrap-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 200px !important;
     height: 200px !important;
     color: white;
     border: 2px solid black;
     margin: 5px;
-    padding: 10px;
 }
 
 .bootstrap-box:hover {
     opacity: 0.5;
+}
+
+.link-box {
+    margin: 25px auto 0 auto;
+}
+
+.bi {
+    font-size: 2rem;
+    margin-bottom: 5px;
 }
