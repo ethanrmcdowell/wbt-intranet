@@ -45,6 +45,7 @@ html, body {
     justify-content: center;
     width: 200px !important;
     height: 200px !important;
+    border-radius: 25px;
     color: white;
     border: 2px solid black;
     margin: 5px;
