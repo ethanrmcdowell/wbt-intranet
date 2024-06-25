@@ -49,6 +49,8 @@ html, body {
     border: 2px solid black;
     margin: 5px;
     cursor: pointer;
+    min-width: 200px !important;
+    max-width: 200px !important;
 }
 
 .bootstrap-box:hover {
